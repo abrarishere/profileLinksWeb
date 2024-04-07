@@ -31,13 +31,26 @@
     color: $green;
   }
   & p{
-    font-size: 13px;
+    font-size: 12px;
     font-family: Inter-Regular;
     margin: 10px auto;
   }
 
 }
 
+@include media-lg {
+  .main{
+    width: 370px;
+    padding: 30px 50px;
+    border-radius: 15px;
+  }
+  .link-button{
+    width: 300px;
+  }
+  p{
+    font-size: 14px;
+  }
+}
 
 footer{
   position: absolute;

@@ -72,11 +72,24 @@ html, body {
   color: hsl(75, 94%, 57%);
 }
 .main p {
-  font-size: 13px;
+  font-size: 12px;
   font-family: Inter-Regular;
   margin: 10px auto;
 }
 
+@media screen and (min-width: 1024px) {
+  .main {
+    width: 370px;
+    padding: 30px 50px;
+    border-radius: 15px;
+  }
+  .link-button {
+    width: 300px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
 footer {
   position: absolute;
   bottom: 0;
